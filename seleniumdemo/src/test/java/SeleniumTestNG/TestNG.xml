@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Sample TestNG" verbose="2" parallel="methods" thread-count="2">
+<test name ="Sample Test">
+
+<classes>
+ <class name = "TestNGParallel"> </class>
+</classes>
+
+
+ <!-- <parameter name = "Name" value ="Duck ">                 //PARAMETER
+ </parameter>
+<classes>
+  <class name = "SeleniumTestNG.TestNGParameterized"></class>
+</classes> -->
+
+
+<!-- <groups>                                               //GROUPING
+  <run>
+   <include name = "MOTO">  </include>
+   <include name = "VIVO">  </include>
+  </run>
+</groups>
+ -->
+
+<!-- <classes>
+
+<class name = "SeleniumTestNG.TestNGBeforeAfterAnnotations"></class>
+
+<class name = "SeleniumTestNG.TestNGDependencies"></class>
+
+<class name = "SeleniumTestNG.TestNGpriority"></class>
+
+<class name = "SeleniumTestNG.TestNGSample"></class>
+
+<class name = "SeleniumTestNG.TestNGSkipcase"></class>
+
+</classes>
+ -->
+
+
+
+
+</test>
+
+</suite>
